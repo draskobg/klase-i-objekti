@@ -34,24 +34,6 @@ const ljubica = new Klijent("Ljubica Dikic",4000)                  // Unosimo at
 
 */
 
-let energija = 100
-class Igrac {
-    constructor (ime, energija) {
-        this.ime = ime
-        this.energija = energija
-    }
-    umorIgraca(ime, vrednost)
-   { if (this.energija - vrednost > 0) {
-        this.energija += vrednost;
-        ime.energija -= vrednost;
-        console.log("Vasa energija je", this.energija);
-    
-    }
-    else console.log("Nemate vise energije");}
-}
 
-
-const petar = new Igrac("Petar Petrovic", 80)
-const ana = new Igrac("Ana Ruzicic", 90)
 
 
